@@ -1,14 +1,17 @@
+# MCPize Configuration
+# Docs: https://mcpize.com/docs/mcpize-yaml
+
 version: 1
+
+name: "mail-summary-tracker"
+slug: "mail-summary-tracker"
+
 runtime: typescript
-entry: src/index.ts
 
 build:
-  install: npm ci
-  command: npm run build
+  install: "npm ci"
+  command: "npm run build"
 
-startCommand:
+start:
   type: http
-  command: node dist/index.js
-
-configSchema:
-  source: code
+  command: "node dist/index.js"
