@@ -1,5 +1,7 @@
 # Gmail Category Summary MCP Server
 
+[![MCPize](https://mcpize.com/badge/@zicogenoxy/mail-summary-tracker)](https://mcpize.com/mcp/mail-summary-tracker)
+
 A production-ready Model Context Protocol (MCP) server written in TypeScript that connects to Gmail using OAuth2, retrieves emails within specified date ranges, and classifies them into seven categories to provide rich, structured category-wise summaries.
 
 **Zero-Friction Authentication**: Built-in default GCP Desktop Application credentials allow users to connect their Gmail account in **1 click** without setting developer client secrets or creating a Google Cloud Project!
